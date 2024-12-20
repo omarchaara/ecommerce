@@ -1,0 +1,160 @@
+/* Style de base */
+body {
+    font-family: 'Arial', sans-serif; /* Définit la police de base pour le site */
+    margin: 0; /* Supprime les marges par défaut autour de la page */
+    padding: 0; /* Supprime les espacements internes par défaut */
+    color: #333; /* Définit la couleur par défaut du texte en gris foncé */
+}
+
+.container {
+    width: 90%; /* Le conteneur occupe 90% de la largeur de l'écran */
+    max-width: 1200px; /* La largeur maximale est limitée à 1200px */
+    margin: 0 auto; /* Centre horizontalement le conteneur */
+}
+
+/* En-tête du site */
+header {
+    background: #0d6efd; /* Fond bleu vif pour l'en-tête */
+    color: #fff; /* Texte en blanc */
+    padding: 20px 0; /* Ajoute un espace en haut et en bas de l'en-tête */
+}
+
+header .logo {
+    font-size: 24px; /* Taille du texte du logo */
+    font-weight: bold; /* Le logo est en gras pour le mettre en valeur */
+}
+
+header nav ul {
+    list-style: none; /* Supprime les puces par défaut des listes */
+    padding: 0; /* Supprime les espacements internes par défaut */
+    display: flex; /* Transforme les éléments de la liste en une ligne horizontale */
+    justify-content: flex-end; /* Aligne les éléments à droite */
+    gap: 20px; /* Ajoute un espace de 20px entre les éléments */
+}
+
+header nav ul li a {
+    color: #fff; /* Texte des liens en blanc */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-weight: bold; /* Les liens sont en gras */
+}
+
+/* Section principale (Hero) */
+.hero {
+    display: flex; /* Aligne les éléments horizontalement (texte et image) */
+    align-items: center; /* Centre verticalement le contenu */
+    justify-content: space-between; /* Espace égal entre le texte et l'image */
+    padding: 40px 0; /* Ajoute un espacement en haut et en bas */
+    background: #f9f9f9; /* Fond gris clair */
+}
+
+.hero-content {
+    max-width: 50%; /* Limite la largeur du contenu texte à 50% */
+}
+
+.hero h1 {
+    font-size: 48px; /* Taille du titre principal (grande pour être visible) */
+    color: #0d6efd; /* Texte en bleu pour attirer l'attention */
+}
+
+.hero p {
+    margin: 20px 0; /* Espacement entre les paragraphes et autres éléments */
+    font-size: 18px; /* Taille du texte du paragraphe */
+}
+
+.hero-image {
+    max-width: 40%; /* L'image occupe au maximum 40% de la largeur de la section */
+    border-radius: 10px; /* Arrondit les coins de l'image */
+}
+
+/* Boutons */
+.btn-primary {
+    background: #0d6efd; /* Couleur de fond bleu vif */
+    color: #fff; /* Texte en blanc */
+    padding: 10px 20px; /* Ajoute de l'espace autour du texte */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    border-radius: 5px; /* Arrondit légèrement les coins */
+    font-size: 16px; /* Taille du texte du bouton */
+}
+
+/* Section "Pourquoi choisir MonShop ?" */
+.features {
+    padding: 40px 0; /* Espacement en haut et en bas */
+    background: #fff; /* Fond blanc */
+    text-align: center; /* Centre tout le texte */
+}
+
+.features h2 {
+    margin-bottom: 30px; /* Espacement sous le titre */
+    color: #0d6efd; /* Couleur du titre en bleu */
+}
+
+.features-grid {
+    display: flex; /* Les éléments sont alignés côte à côte */
+    justify-content: center; /* Centre les éléments horizontalement */
+    gap: 20px; /* Espacement de 20px entre les fonctionnalités */
+}
+
+.feature img {
+    max-width: 80px; /* Limite la largeur des icônes */
+    margin-bottom: 10px; /* Espacement sous les images */
+}
+
+.feature h3 {
+    margin-bottom: 10px; /* Espacement sous le titre des fonctionnalités */
+    font-size: 20px; /* Taille du texte des titres des fonctionnalités */
+}
+
+/* Section des produits */
+.products {
+    padding: 40px 0; /* Ajoute de l'espace vertical */
+    background: #f9f9f9; /* Fond gris clair */
+    text-align: center; /* Centre le texte */
+}
+
+.products h2 {
+    margin-bottom: 30px; /* Espacement sous le titre de la section */
+    color: #0d6efd; /* Couleur du titre en bleu */
+}
+
+.products-grid {
+    display: flex; /* Les produits sont alignés horizontalement */
+    justify-content: center; /* Centre les produits */
+    gap: 20px; /* Espacement entre les produits */
+}
+
+.product img {
+    max-width: 200px; /* Limite la taille des images des produits */
+    border-radius: 10px; /* Arrondit légèrement les coins des images */
+}
+
+/* Boutons secondaires */
+.btn-secondary {
+    margin-top: 20px; /* Espacement au-dessus du bouton */
+    display: inline-block; /* Permet au bouton d'être affiché comme un lien cliquable */
+    background: #333; /* Couleur de fond gris foncé */
+    color: #fff; /* Texte en blanc */
+    padding: 10px 20px; /* Ajoute de l'espace autour du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    border-radius: 5px; /* Arrondit les coins */
+}
+
+/* Pied de page (Footer) */
+footer {
+    background: #6687e3; /* Couleur de fond bleu clair */
+    color: #fff; /* Texte en blanc */
+    padding: 20px 0; /* Espacement vertical */
+    text-align: center; /* Centre le contenu */
+}
+
+footer nav ul {
+    list-style: none; /* Supprime les puces des listes */
+    padding: 0; /* Supprime les marges internes */
+    display: flex; /* Aligne les liens horizontalement */
+    justify-content: center; /* Centre les liens */
+    gap: 15px; /* Espacement entre les liens */
+}
+
+footer nav ul li a {
+    color: #fff; /* Texte des liens en blanc */
+    text-decoration: none; /* Supprime le soulignement */
+}
